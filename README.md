@@ -37,3 +37,13 @@ PS：中文论文模板使用CCT&TEX编译，无法使用OverLeaf，看网上说
    ![image](https://github.com/zxr-code/zxr-code.github.io/assets/64823727/176baa90-32cc-4570-b921-775dc2e4da0f)
    （2）数学符号：
    
+
+\usepackage{cuted}
+\begin{strip}
+    \centering
+    \begin{align}	   
+        Mx(t+1) = A_{0}\left(r_{t}\right) x(t) + B_{0}(r_{t}) x(t-t_{d}) + N_{0}(r_{t}) u(t) + \sum_{k=1}^{m} \{ A_{k}\left(r_{t}\right) x(t) + B_{k}(r_{t}) x(t-t_{d}) + N_{k} \}
+    \end{align}
+\end{strip}
+
+![image](https://github.com/zxr-code/zxr-code.github.io/assets/64823727/d0aca4e5-4a2a-41ca-a5c5-1ef3a12c552c)
